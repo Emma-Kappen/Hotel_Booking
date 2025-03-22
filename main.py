@@ -1,5 +1,16 @@
 from nlp_parser import parse_input
 from agent import BookingAgent
+import subprocess
+import sys
+
+# Auto-install missing packages
+def install_requirements():
+    try:
+        import transformers, torch, sentencepiece, dateparser
+    except ImportError:
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
+
+install_requirements()
 
 def main():
     print("🛎️ Welcome to AI Hotel Booking Agent!")
