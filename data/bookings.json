@@ -1,0 +1,26 @@
+[
+    {
+        "booking_id": "a1b2c3d4",
+        "hotel_name": "Ocean View Resort",
+        "location": "Goa",
+        "price": 2500,
+        "stars": 5,
+        "amenities": ["WiFi", "Pool", "Sea View"],
+        "check_in": "2025-04-10",
+        "check_out": "2025-04-12",
+        "customer_name": "John Doe",
+        "timestamp": "2025-03-22T14:30:00"
+    },
+    {
+        "booking_id": "e5f6g7h8",
+        "hotel_name": "Mountain Retreat",
+        "location": "Manali",
+        "price": 1800,
+        "stars": 4,
+        "amenities": ["WiFi", "Breakfast"],
+        "check_in": "2025-04-05",
+        "check_out": "2025-04-08",
+        "customer_name": "Jane Smith",
+        "timestamp": "2025-03-21T10:15:00"
+    }
+]
