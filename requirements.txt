@@ -3,3 +3,7 @@ torch
 sentencepiece
 dateparser
 streamlit
+streamlit-chat
+streamlit-webrtc
+SpeechRecognition
+pyaudio
